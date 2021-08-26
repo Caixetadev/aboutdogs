@@ -16,11 +16,11 @@
 </p>
 
 <h3 align = "center">Status: Finalizado 🦴 || Deploy: </h3>  
-<p align = "center"><a href = ""><img alt="Vercel" src="https://img.shields.io/badge/vercel%20-%23000000.svg?&style=for-the-badge&logo=vercel&logoColor=white"/</a></p>
+<p align = "center"><a href = "https://caixetadev.github.io/AboutDogs/"><img alt="Vercel" src="https://img.shields.io/badge/vercel%20-%23000000.svg?&style=for-the-badge&logo=vercel&logoColor=white"/</a></p>
 
 ---
 ### ✨ Final Project
-> Netlify: https://trainingsass.netlify.app/
+> Netlify: https://caixetadev.github.io/AboutDogs/
 <p align="center">
   <img src="https://github.com/Caixetadev/AboutDogs/blob/main/assets/img/home.png?raw=true" alt="Photo Home" />
 </p>
