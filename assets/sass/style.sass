@@ -1,0 +1,140 @@
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+body
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto
+  max-width: 1600px
+  margin: 0 auto
+
+::-webkit-scrollbar
+  width: 8px
+
+::-webkit-scrollbar-track
+  background: #232323
+
+.header
+  display: flex
+  width: 100%
+  align-items: center
+  img
+    width: 100px
+
+  h1
+    font-size: 35px
+
+.container
+  display: grid
+  grid-gap: 1px
+  grid-template-columns: repeat(6, 1fr)
+  grid-template-areas: "card-1 card-1 card-2 card-2 card-2 card-3" "card-1 card-1 card-2 card-2 card-2 card-4" "card-5 card-6 card-7 card-7 card-8 card-8" "card-9 card-9 card-9 card-10 card-10 card-10" "footer footer footer footer footer footer"
+
+  .text
+    background: #333333
+    color: white
+    padding: 30px
+
+    h1
+      margin-bottom: 20px
+
+    p
+      max-width: 400px
+
+  img
+    display: block
+    width: 100%
+    height: 100%
+
+  .card-1
+    grid-area: card-1
+    p
+      margin-bottom: 20px
+    a
+      text-decoration: none
+      color: black
+      padding: 5px 30px
+      background: white
+      border-radius: 5px
+
+      &:focus
+        outline: 0
+
+      &:hover
+        background: black
+        color: white
+
+  footer
+    display: flex
+    justify-content: center
+    align-items: center
+    background: black
+    grid-area: footer
+    color: white
+    height: 70px
+
+  .card-2
+    grid-area: card-2
+
+  .card-3
+    grid-area: card-3
+
+  .card-4
+    grid-area: card-4
+
+  .card-5
+    grid-area: card-5
+
+  .card-6
+    grid-area: card-6
+
+  .card-7
+    grid-area: card-7
+
+  .card-8
+    grid-area: card-8
+    p
+      margin-bottom: 20px
+
+  .card-9
+    grid-area: card-9
+
+  .card-10
+    grid-area: card-10
+
+@media (max-width: 600px)
+  .container
+    grid-gap: 0
+    display: grid
+    grid-template-columns: repeat(6, 1fr)
+
+    .card-1
+      grid-area: 1/7
+      h1
+        font-size: 25px
+
+    .card-2
+      grid-area: 2/7
+      margin: 0
+
+    .card-3
+      grid-area: 3/7
+    .card-4
+      grid-area: 4/7
+    .card-5
+      grid-area: 5/7
+    .card-6
+      grid-area: 6/7
+    .card-7
+      grid-area: 7/7
+    .card-8
+      grid-area: 8/7
+      h1
+        font-size: 25px
+    .card-9
+      grid-area: 9/7
+    .card-10
+      grid-area: 10/7
+
+    footer
+      grid-area: 11/7
